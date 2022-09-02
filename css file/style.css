@@ -1,0 +1,446 @@
+*{
+    box-sizing: border-box;
+    margin:0%;
+    padding: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.banner-wrapper{
+    background-image: url(../images/top-banner-img/Top-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.banner-wrapper p{
+    
+    color: white;
+
+
+}
+
+.banner-wrapper .top-right-sec{
+    position: relative;
+    background-image: url(../images/top-banner-img/top-right-bg.png);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    background-position: bottom;
+    justify-content: center;
+}
+.banner-wrapper .animate-img{
+    position:absolute;
+    bottom: 0%;
+    left:50%;
+    -webkit-transform:translateX(-50%);
+    transform:translateX(-50%);
+    z-index: 22;
+}
+.banner-wrapper .animate-img .aimg1{
+    left:-5.6875rem;
+    position: absolute;
+    -webkit-animation-name: movebounce;
+    animation-name: movebounce;
+     -webkit-animation-delay: 100ms;
+    animation-delay: 100ms;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+
+
+}
+
+.banner-wrapper .animate-img .amig2{
+    left:5.5rem;
+    
+    -webkit-animation-name: movebounce;
+    animation-name: movebounce;
+     -webkit-animation-delay: 200ms;
+    animation-delay: 200ms;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+
+
+}
+
+.cards{
+    background-color: white;
+    transition: .4s;
+}
+.cards:hover{
+transform: scale(1.1);
+box-shadow: 2 2 2 2 black;
+background-color: #C6DCE4;
+color:#277BC0;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+h3{
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.about-wrappers h2{
+    color: black;
+}
+
+.about-wrappers .card{
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-wrappers .about-clinic{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.about-wrappers .about-clinic:nth-child(1),
+.about-wrappers .about-clinic:nth-child(2){
+    margin-bottom:  2.8125rem; 
+}
+
+.about-wrappers .about-clinic:nth-child(2),
+.about-wrappers .about-clinic:nth-child(4){
+    padding-left:3.75rem ;
+}
+
+
+
+.about-wrappers .line-1,
+.about-wrappers .line-2{
+    content:'';
+    position:absolute;  
+    left:50%;
+    top:50% ;
+    transform: translate(-50%, -50%);
+    width: .0313rem;
+    height: 100%;
+    background-color: rgb(30, 30, 32);
+
+
+}
+.about-wrappers .line-2{
+    width: 100%;
+    height: .0625rem;
+}
+
+.about-wrappers .about-animate{
+    position:absolute ;
+    left:-2.5rem;
+    -webkit-animation: movebounce 3s linear infinite;
+    animation: movebounce 3s linear infinite;
+    bottom: 0%;
+} 
+.cards{
+    border-radius:8px;
+    margin: 12px;
+}
+.tran-text{
+    color:#3B9AE1 ;
+}
+.app-btn{
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+}
+
+/* nav section start here  */
+.nav-edit{
+    font-weight: bolder;
+}
+.nav-edit:active{
+color:rgb(57, 2, 2)
+}
+ /* nav section ends here  */
+
+
+
+
+
+
+/* Services section start here*/
+
+.services-wrapper{
+    background-color:#E7F6F2 ;
+    
+}
+.s-card{
+    border-radius:8px;
+    transition: .4s;
+    background-color:white ;
+    margin: 12px;
+    
+
+}
+.s-card:hover{
+    transform: scale(1.1);
+    background-color:#000000;
+    color:white ;
+}
+.s-btn:hover{
+background-color: purple;
+}
+/* Servise Section Ends Here*/
+
+
+
+
+
+
+
+
+
+
+/*Team Section Starts Here*/
+.team-img{
+    width:165px;
+    text-align: center;
+}
+
+.team-wrapper .t-card{
+   margin: 12px;
+}
+.team-wrapper .team-img{
+    margin: auto;
+}
+
+.t-li{
+    margin: 3px;
+    padding: 5px;
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 100%;
+    transition: .4s;
+    color:white;
+}
+.t-li:hover{
+    background-color:#D1E8E4;
+    color:white;
+}
+
+.team-wrapper .t-card{
+    padding: 1.25rem;
+}
+.team-wrapper .t-card:hover{
+    -webkit-transform: translateY(-0.625rem);;
+    transform: translateY(-0.625rem);
+}
+.team-wrapper .social-networks{
+    transition: all 0.3s ease-in-out;
+    padding: 0.625rem 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team-wrapper .social-networks li a{
+   width: 1.5625rem;
+   height: 1.5625rem;
+   line-height: 1.5625rem;
+   display:block;
+   border-radius: .3125rem;
+   margin: 0 .3125rem ;
+   font-size: .75rem;
+   transition: all .3s ease;
+
+    
+}
+/* Team Section Ends Here*/
+
+
+
+
+
+
+/* Gallery section starts here*/
+
+.gallery-wrapper{
+  background-color:#4D8DC2;
+  padding: 25px;
+}
+.gallery-wrapper img{
+    border-radius: 8px;
+    opacity: 0.5;
+    transition: .4s;
+}
+.gallery-wrapper img:hover{
+    opacity: 1;
+   
+}
+
+/* Gallery section ends here*/
+
+
+
+
+
+
+
+
+/* Testimonials section starts here*/
+.testimonial-wrapper{
+    background-color: #F9F9F9;
+}
+.testimonial-wrapper .ts-card{
+    background-color: rgba(252, 83, 133, .05);
+}
+/* testimonials section ends here*/
+
+
+
+
+
+/* appointment section start here  */
+.appointment-wrapper{
+ background-color: #6D9886;
+ padding: 30px;
+
+}
+.ap-btn{
+    background-color: purple;
+    color: white;
+    transition: .4s;
+    border-radius: 5px;
+}
+.ap-btn:hover{
+    transform: scale(1.1);
+    color: white;
+}
+
+.ap-icon{
+    background-color:white;
+    color:purple;
+    border-radius: 10px;
+    padding: 5px;
+}
+/* appointment section ends here  */
+
+/* Blog section start here  */
+.blog-card:{
+ margin: 12px;
+ 
+}
+.blog-wrapper{
+    background-color:#F5F5F5 ;
+}
+.blog-wrapper img{
+    border-radius: 8px;
+}
+/* Blog section ends here  */
+
+
+/* contact section start here  */
+.contact-wrapper{ 
+    background-color:#277BC0 ;
+    padding: 30px;
+}
+.contact-wrapper ul li{
+    margin-bottom: .5rem;
+    list-style: none;
+    font-size: .875rem;
+
+}
+.contact-wrapper ul li a{
+    color:white
+    
+}
+.contact-wrapper a{
+    text-decoration: none;
+
+}
+.contact-wrapper a:hover{
+    text-decoration: underline;
+}
+.form-control{
+    color: white !important
+}
+.s-icon{
+    margin: 3px;
+    padding: 5px;
+    background-color: #277BC0;
+    border: 1px solid white;
+    border-radius: 100%;
+    transition: .4s;
+}
+.s-icon:hover{
+    background-color:purple;
+    color:white;
+    
+
+    
+    
+
+}
+.subs:hover{
+background-color: red;
+border:1px solid white !important
+
+
+}
+.contact-wrapper::placeholder{
+    color: white !important
+}
+
+
+/* contact section ends here  */
+
+/* footer section start here  */
+.footer-section{
+    padding: 5px;
+    background-color:white ;
+    color: #000000;
+}
+
+/* footer section ends here  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes movebounce{
+    0%{
+        -webkit-transform: translateY(11.25rem);
+        transform: translateY(1.25rem);
+
+    }
+    50%{
+        -webkit-transform: translateY(1.25rem);
+        transform: translateY(1.25rem);
+    }
+    100%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Website</title>
+     
+    <!--Bootstrap cdn start here-->
+     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <!--bootstrap cdn end here-->
+    
+    <!--Font awesome cdn link start here-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Font awesome cdn link ends here-->
+
+    <!--main css file link start here-->
+    <link rel="stylesheet" href="css file/style.css">
+    <link rel="stylesheet" href="css file/responsive-style.css">
+    <!--main css file link start here-->
+    
+    <!--google font cdn link start here-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"> 
+    <!--google font cdn link start here-->
+
+     <!-- AOS Animate On Scroll Library start here -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!-- AOS Animate On Scroll Library END here -->
+    
+
+
+</head>
+<body data-bs-spy="scroll" data-bs-targets=".navber" data-bs-offset="100">
+    
+    <!--Navbar section start here-->
+
+    <header class="header-section">
+      
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="logo" class="img-fluid">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars-staggered"></i>
+              </button>
+              <div class="collapse navbar-collapse  mb-2 mb-lg-0 fs-5" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item nav-edit">
+                      <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item nav-edit">
+                      <a class="nav-link" href="#about">About</a>
+                    </li>
+                    
+                    <li class="nav-item nav-edit">
+                      <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    
+                    <li class="nav-item nav-edit">
+                      <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    
+                    <li class="nav-item nav-edit">
+                      <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    
+                    <li class="nav-item nav-edit">
+                      <a class="nav-link" href="#testimonial">Testimonial</a>
+                    </li>
+                    
+                    <li class="nav-item nav-edit">
+                      <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item nav-edit">
+                      <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    
+                    <li class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </li>
+                    </ul>
+               
+              </div>
+            </div>
+          </nav>
+     
+    </header>
+
+
+
+    <!--Navbar section exit here-->
+
+    <!--banner section start here-->
+
+    <section id="home" class="home mb-5">
+
+      <div class="banner-wrapper wrapper py-5 pt-5 ">
+        <div class="container mt-5 py-5">
+          <div class="row align-items-center">
+            <div class="col-md-6 ordered-md-1 order-2">
+               <h4 class="">Better <span class="text-info">Life</span><span class="text-danger">Through</span> </h4>
+               <h2>Better <span class="text-info">Dentistry</span></h2>
+               <p class="py-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa dolorum aperiam iure similique! Explicabo ducimus error, reprehenderit blanditiis quos iste odio nobis unde, exercitationem dignissimos quibusdam esse amet, quasi doloribus.</p>
+               <a href="#" class="btn btn-lg btn-primary app-btn">Appointment</a>
+               <a href="#" class="btn btn-lg btn-outline-primary">Learn More</a>
+            </div>
+            <div class="col-md-6 order-md-2 order-1 mb-md-0 mb-5">
+              <div class="top-right-sec">
+                <div class="animate-img">
+                  <img class="aimg1" src="./images/top-banner-img/woman-brush.png">
+                  <img class="amig2" src="./images/top-banner-img/doctor.png">
+                </div>
+                <img class="img-fluid ms-xl-5" src="./images/top-banner-img/top-right-img-1.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        
+       <div class="wrapper pb-0 py-5">
+         <h1 class="text-center">Our <span class="text-primary">Facilities</span></h1>
+         <hr/ class="w-25 m-auto">
+         <div class="container mt-5">
+           
+           <div class="row ">
+             <div class="col-md-4 col-sm-6 mb-4">
+               <div class="card cards text-center">
+                 <div class="card-body">
+                   <div class="icon-box">
+                     <img src="./images/top-banner-img/Appointment-icon.png">
+                   </div>
+                   <div >
+                     <h4>Easy Appointment</h4>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quasi?</p>
+
+                   </div>
+                 </div>
+               </div>
+             </div>
+
+             <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card cards text-center">
+                <div class="card-body">
+                  <div class="icon-box">
+                    <img src="./images/top-banner-img/Emergency-icon.png">
+                  </div>
+                  <div >
+                    <h4>Emergency Service</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quasi?</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card cards text-center">
+                <div class="card-body">
+                  <div class="icon-box">
+                    <img src="./images/top-banner-img/7-Service-icon.png">
+                  </div>
+                  <div >
+                    <h4>24/7 Service</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quasi?</p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+           </div>
+         </div>
+       </div>
+      <div class="container  bg-light py-5">
+        <div><h3 class="text-center">TRANDING <span class="text-info"> ON </span><span class="text-primary">CLINIC</span> </h3>
+        <hr/ class="w-30 m-auto">
+        </div>
+        
+        <div class="trending mt-5">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card cards ">
+                <div class="card-body">
+                  <h2 class="text-center tran-text">(1)</h2>
+                  <h4>What Happened When We Tried To Get COVID Vax Paper Retracted</h4>
+                  <button class="btn btn-outline-primary mt-3">Learn More...</button>
+ 
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card cards">
+                <div class="card-body">
+                  <h2 class="text-center tran-text">(2)</h2>
+                  <h4>FDA Clears New Neurostimulation System for Chronic Pain</h4>
+                  <button class="btn btn-outline-primary  mt-3">Learn More...</button>
+ 
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card cards">
+                <div class="card-body">
+                  <h2 class="text-center tran-text">(3)</h2>
+                  <h4>'Conservative' USPSTF Primary Prevention Statin Guidance Finalized</h4>
+                  <button class="btn btn-outline-primary mt-3 ms-auto">Learn More...</button>
+ 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+
+    </section>
+    <!--banner section exit here-->
+
+    <!--about section start here-->
+    <section id="about" class="about-wrappers py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-mb-0 mb-5">
+            <div class="position-relative">
+              <img src="./images/about/about-banner1.png " class="img-fluid"> 
+              <img src="./images/about/about-img2.png" class="about-animate">
+            </div>
+          </div>
+          <div class="col-md-6 text-center text-md-start  ami">
+            <h1>Welcome <span class="text-info">To</span> <span class="text-primary">a Family</span> </h1>
+            <hr/ class="w-35 m-auto">
+            <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam atque, doloremque facere totam, laborum placeat earum amet tempore molestias, esse ad quod similique harum quisquam.</p>
+            <div class="mt-5 card p-5">
+
+
+              <div class="about-clinic">
+                <h4> <span class="text-primary">500+</span> </h4>
+                <p class="text-info">Happy Patients</p>
+              </div>
+
+
+              <div class="about-clinic">
+                <h4 class="text-primary">99+</h4>
+                <p class="text-info">Qualified Doctors</p>
+              </div>
+
+              <div class="about-clinic">
+                <h4 class="text-primary">25+</h4>
+                <p class="text-info">Years Experience</p>
+              </div>
+
+              <div class="about-clinic">
+                <h4 class="text-primary">65+</h4>
+                <p class="text-info">Dental Awards</p>
+              </div>
+              
+              <span class="line-1"></span>
+              <span class="line-2"></span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!--about section exit here-->
+
+    <!--services section start-->
+      <section id="services" class="services-wrapper pb-5">
+        <div class="container">
+          <div class="mb-4 py-5">
+            <h1 class="text-center">Our Services</h1>
+            <hr/ class="w-25 m-auto">
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card s-card">
+                <div class="card-body">
+                  <div class="icon-box">
+                    <img src="./images/services/1.svg">
+                  </div>
+                  <div class=""></div>
+                  <h4>Complete Dentistry</h4>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime cum harum iusto eaque! Dolorum, ipsum.</p>
+                  <button class="btn btn-outline-primary s-btn"> Learn More...</button>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card s-card">
+                <div class="card-body">
+                  <div class="icon-box">
+                    <img src="./images/services/2.svg">
+                  </div>
+                  <div class=""></div>
+                  <h4>Dental Selants</h4>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime cum harum iusto eaque! Dolorum, ipsum.</p>
+                  <button class="btn btn-outline-primary s-btn">Learn More...</button>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card s-card">
+                <div class="card-body">
+                  <div class="icon-box">
+                    <img src="./images/services/3.svg">
+                  </div>
+                  <div class=""></div>
+                  <h4>Dental Dictionary</h4>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime cum harum iusto eaque! Dolorum, ipsum.</p>
+                  <button class="btn btn-outline-primary s-btn">Learn More...</button>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card s-card">
+                <div class="card-body">
+                  <div class="icon-box">
+                    <img src="./images/services/4.svg">
+                  </div>
+                  <div class=""></div>
+                  <h4>Dental Implants </h4>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime cum harum iusto eaque! Dolorum, ipsum.</p>
+                  <button class="btn btn-outline-primary s-btn">Learn More...</button>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card s-card">
+                <div class="card-body">
+                  <div class="icon-box">
+                    <img src="./images/services/5.svg">
+                  </div>
+                  <div class=""></div>
+                  <h4>Oral Surgery</h4>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime cum harum iusto eaque! Dolorum, ipsum.</p>
+                  <button class="btn btn-outline-primary s-btn">Learn More...</button>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4" >
+              <div class="card s-card">
+                <div class="card-body">
+                  <div class="icon-box">
+                    <img src="./images/services/6.svg">
+                  </div>
+                  <div class=""></div>
+                  <h4>General Dentistry</h4>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime cum harum iusto eaque! Dolorum, ipsum.</p>
+                  <button class="btn btn-outline-primary s-btn">Learn More...</button>
+                </div>
+              </div>
+
+            </div>
+            
+          </div>
+        </div>
+      </section>
+    <!--services section ends here-->
+
+    <!--team section start-->
+     <section id="team" class="team-wrapper">
+       <div class="container">
+        <div class="">
+          <h1 class="pt-5 text-center">Our <span class="text-primary">Dentists</span></h1>
+          <hr/ class="w-25 m-auto">
+        </div>
+
+         <div class="row py-5">
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card t-card">
+              <div class="card-body">
+                <div class="team-img">
+                  <img class="img-fluid rounded-circle" src="./images/team/team1.png">
+                  <h5 class="pt-4">Salman Ahmed</h5>
+                  <p>Dral Surgeon</p>
+                  <ul class="social-networks">
+                    <li class="t-li">
+                      <a href="#"><i class="fa-brands fa-facebook t-a"></i></a>
+                   </li>
+
+                    <li class="t-li"><a href="#">
+                      <i class=" fa-brands fa-twitter t-a" ></i></a>
+                    </li>
+
+                    <li class="t-li">
+                      <a href="#"><i class="fa-brands fa-google-plus t-a"></i></a>
+                    </li>
+
+                    <li class="t-li">
+                      <a href="#"><i class="fa-brands fa-square-vimeo t-a"></i></a>
+                    </li>
+                  </ul>
+                   
+                </div>
+              </div>
+            </div>
+           </div>
+
+           <div class="col-md-4 col-sm-6 mb-4" >
+            <div class="card t-card">
+              <div class="card-body">
+                <div class="team-img">
+                  <img class="img-fluid rounded-circle" src="./images/team/team2.png">
+                  <h5 class="pt-4">Darry Milin</h5>
+                  <p>Dral Surgeon</p>
+                  <ul class="social-networks">
+                    <li class="t-li"><a href="#"><i class="fa-brands fa-facebook t-a"></i></a></li>
+                    <li class="t-li"><a href="#"><i class="fa-brands fa-twitter t-a" ></i></a></li>
+                    <li class="t-li"><a href="#"><i class="fa-brands fa-google-plus t-a"></i></a></li>
+                    <li class="t-li"><a href="#"><i class="fa-brands fa-square-vimeo t-a"></i></a></li>
+                  </ul>
+                   
+                </div>
+              </div>
+            </div>
+           </div>
+
+           <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card t-card">
+              <div class="card-body">
+                <div class="team-img">
+                  <img class="img-fluid rounded-circle" src="./images/team/team3.png">
+                  <h5 class="pt-4">Santa Binte</h5>
+                  <p>Dral Surgeon</p>
+                  <ul class="social-networks text-center">
+                    <li class="t-li"><a href="#"><i class="fa-brands fa-facebook t-a"></i></a></li>
+                    <li class="t-li"><a href="#"><i class="fa-brands fa-twitter t-a"></i></a></li>
+                    <li class="t-li"><a href="#"><i class="fa-brands fa-google-plus t-a"></i></a></li>
+                    <li class="t-li"><a href="#"><i class="fa-brands fa-google-plus t-a"></i></a></li>
+                  </ul>
+                   
+                </div>
+              </div>
+            </div>
+           </div>
+         </div>
+       </div>
+     </section>
+    <!--team section start-->
+
+    <!--gallery section start-->
+    <section id="gallery" class="gallery-wrapper">
+      <div class="container py-5">
+        <div>
+          <h1 class="text-center pb-2"><span class="text-white">Our</span> <span class="text-info">Gallery</span></h1>
+          <hr/ class="w-25 m-auto">
+          <div class="row mt-5">
+
+            <div class="col-md-4 col-sm-6 mb-4" >
+              <img src="./images/gallery/1.jpg" class="w-100 h-100">
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+              <img src="./images/gallery/2.jpg" class="w-100 h-100">
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+              <img src="./images/gallery/3.jpg" class="w-100 h-100">
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+              <img src="./images/gallery/5.jpg" class="w-100 h-100">
+            </div>
+
+            <div class="col-md-8 col-sm-6 mb-4">
+              <img src="./images/gallery/4.jpg" class="w-100 h-100">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--gallery section start-->
+
+
+    <!--testimonial section start here-->
+    <section id="testimonial" class="testimonial-wrapper py-5">
+      <div class="container">
+        <h1 class="text-center"><span class="text-primary">Testimonials</span></h1>
+        <hr/ class="w-25 m-auto">
+        <div class="row align-items-center py-5">
+          <div class="col-xl-3 col-md-4 col-sm-6" >
+            <div class="card text-center ts-card">
+              <div class="card-body">
+                <img src="./images/testimonial/client1.png" class="img-fluid">
+                <h4 class="pt-4 mb-0" >Aliceno Colby</h4>
+                <p>CEO of Prime IT</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-9 col-md-8 col-sm-6 ps-md-4 pt-sm-0 pt-4" >
+            <h4>Awesome Work</h4>
+            <p>"They reallly took my individdual case to heart.Their team is very helpful.They all work together in an impressive way to make sure that my needs were met and I walked out pain free" </p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--testimonial section exit here-->
+
+    <!-- Appointment section start here -->
+     <section class="appointment-wrapper">
+       <div class="container">
+         <div class="row text-center">
+           <div class="col-lg-8 col-md-8 col-sm-12">
+             <h4 class="pt-3">Request your Appointment and start your smile makeover</h4>
+           </div>
+           <div class="col-lg-4 col-md-4 col-sm-12 pt-3" data-aos="zoom-in">
+            <a href="#"><button class="btn ap-btn ">Request Appointment <i class="fa-solid fa-share-from-square  ap-icon"></i></button>  </a>
+           </div>
+         </div>
+       </div>
+     </section>
+     <!-- Appointment section ends here -->
+
+    <!--blog section start-->
+  <section id="blog" class="blog-wrapper">
+    <div class="container py-5">
+      <div class="">
+        <h1 class="text-center mt-5">Latest <span class="text-primary"> Blog</span></h1>
+        <hr/ class="w-25 m-auto">
+      </div>
+      <div class="row py-5">
+       <div class="col-md-4 col-sm-6 mb-4">
+         <div class="card border-0 rounded-0 blog-card">
+           <div class="card-body">
+             <img src="./images/blog/1.jpg" class="img-fluid">
+              <div class="blog-contain">
+                <h5 class=" mb-4">Dental Insurance with Benefits</h5>
+                <h6 class="text-info"> By Admin - February 18, 2020</h6>
+                <p class="mt-2 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, ducimus eligendi delectus sapiente ullam iure.</p>
+                <a href="#" ><button class="btn btn-outline-primary">Learn More...</button> </a>
+              </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-md-4 col-sm-6 mb-4">
+        <div class="card border-0 rounded-0 blog-card">
+          <div class="card-body">
+            <img src="./images/blog/2.jpg" class="img-fluid">
+             <div class="blog-contain">
+               <h5 class=" mb-4">Dental Insurance with Benefits</h5>
+               <h6 class="text-info"> By Admin - February 18, 2020</h6>
+               <p class="mt-2 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, ducimus eligendi delectus sapiente ullam iure.</p>
+               <a href="#" ><button class="btn btn-outline-primary">Learn More...</button> </a>
+             </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="card border-0 rounded-0 blog-card">
+          <div class="card-body">
+            <img src="./images/blog/3.jpg" class="img-fluid">
+             <div class="blog-contain">
+               <h5 class="mb-4">Dental Insurance with Benefits</h5>
+               <h6 class="text-info"> By Admin - February 18, 2020</h6>
+               <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, ducimus eligendi delectus sapiente ullam iure.</p>
+               <a href="#" ><button class="btn btn-outline-primary blog-btn">Learn More...</button> </a>
+             </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </section>
+    <!--blog section exit here-->
+
+    
+
+    <!--contact section start here-->
+    <section id="contact" class="contact-wrapper py-5">
+      <div class="container pb-3">
+        <div >
+          <h1 class="text-center mt-3">Contact <span class="text-info">Us</span></h1>
+          <hr/ class="w-25 m-auto">
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-3 col-md-6 mb-4 " >
+            <h5>Clinic Location</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste architecto reprehenderit quasi ipsa alias quaerat.</p>
+            <div class="contact-info">
+              <ul class="list-unstyled">
+                <li><a href="#"><i class="fa-solid fa-house-circle-exclamation"></i> Uttara, Sector-5, Bangladesh</a></li>
+                <li><a href="#"><i class="fa-solid fa-phone-volume"></i> +88 09 222 375 14</a></li>
+                <li><a href="#"><i class="fa-solid fa-envelope"></i> clinicinfo@gmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 ">
+            <h5>More Links</h5>
+            <ul class="link-widget p-0">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Office</a></li>
+              <li><a href="#">Delivery</a></li>
+              <li><a href="#">Our Store</a></li>
+              <li><a href="#">Guarantee</a></li>
+              <li><a href="#">Buy Gift Card</a></li>
+              <li><a href="#">Return Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 ">
+            <h5>Demo Links</h5>
+            <ul class="link-widget p-0">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Office</a></li>
+              <li><a href="#">Delivery</a></li>
+              <li><a href="#">Our Store</a></li>
+              <li><a href="#">Guarantee</a></li>
+              <li><a href="#">Buy Gift Card</a></li>
+              <li><a href="#">Return Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5>Newsletter</h5>
+            <div class="from-group mb-4">
+              <input type="email" class="form-control bg-transparent text-white" placeholder="Enter your Email address... ">
+              <button type="submit" class="btn rounded-2 mt-3 border-white text-white subs">Subscribe</button>
+              <h5 class="mt-4">Stay Connected</h5>
+              <ul class="social-network d-flex align-items-center p-0">
+                <li><a href="#"><i class="fa-brands fa-facebook p-2 rounded-circle s-icon"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-square-twitter p-2 rounded-circle s-icon"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-square-google-plus p-2 rounded-circle s-icon"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram p-2 rounded-circle s-icon"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-vimeo-v p-2 rounded-circle s-icon"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    <!--contact section exit here-->
+
+    <!-- Footer section start here  -->
+    <section class="footer-section text-center">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md" >
+            <p class="text-muted mt-2"> Copyright &copy;<a class="text-decoration-none text-info " href="index.html"><b> <i>CLINIC</i></b></a> Company Ltd.All Rights Reserved | Developed By Manik IT Solution </p> 
+          </div>
+          <div class="col-md">
+            <a href="#" class="d-flex justify-content-end"><i class="fa-solid fa-circle-arrow-up fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer section ends here  -->
+
+    
+
+
+
+
+
+    <!--Bootstrap js cdn strat hare-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!--Bootstrap js cdn ends hare-->
+
+    <!--Costum javascript file link start here-->
+     <script src="javascript/main.js"></script>
+     <!--Costum javascript file link ends here-->
+
+      <!-- AOS Animate On Scroll Library start here -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+    <!-- AOS Animate On Scroll Library END here -->
+
+</body>
+</html>
